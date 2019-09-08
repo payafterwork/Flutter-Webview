@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
-      url: 'http://gool24.net/'
+      url: 'http://www.sociablock.com/'
     );
   }
 }

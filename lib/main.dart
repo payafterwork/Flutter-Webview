@@ -4,8 +4,10 @@ import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 void main() => runApp(
   MaterialApp(
-    home: MyApp()
-));
+    home: MyApp(),
+    
+  )
+);
 
 class MyApp extends StatefulWidget {
   @override
@@ -15,8 +17,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return WebviewScaffold(
-      url: 'http://www.sociablock.com/'
+    
+    return WebviewScaffold(      
+      url: 'http://gool24.net',     
     );
   }
 }
